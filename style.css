@@ -1,0 +1,12 @@
+@import url(maincss/Badges.css);
+@import url(maincss/header.css);
+@import url(maincss/dialog.css);
+@import url(maincss/drawer.css);
+@import url(maincss/card.css);
+@import url(maincss/snackbar.css);
+@import url(maincss/menu.css);
+@import url(maincss/chips.css);
+
+.main-heading{
+    text-align: center;
+}
