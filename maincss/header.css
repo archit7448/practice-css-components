@@ -1,0 +1,18 @@
+header{
+    background-color: #6200ee;
+    display: flex;
+    width:50%;
+    min-width: 400px;
+    font-size: 1.3rem;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+    margin: 2rem auto;
+}  
+header a{
+    color: white;
+    margin-right: 1rem;
+}
+.header-left{
+    flex-grow: 1;
+}

@@ -1,0 +1,50 @@
+.badges-wrapper{
+    margin: 5rem 0;
+    padding: 1.5rem 0;
+    background-color: white;
+    width: 30%;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25),-1px -1px 2px 1px rgba(0, 0, 0, 0.25) ;
+  }
+  .badge-parent{
+    font-size: 2rem;
+    padding: 1rem 0;
+    position: relative;
+  }
+  .badges-position{
+      font-size: 1rem;
+      padding: 0.2rem;
+      border-radius: 50%;
+      background-color: red;
+      position: absolute;
+  }
+  .home-position{
+    transform: translate(-55%,-30%);
+  }
+  .badge-text{
+    font-size: 1.5rem;
+    display: inline-block;
+  }
+  .text-position{
+    transform: translate(-40%);
+  }
+  .badge-button{
+    padding: 0 1rem ;
+    font-size: 1.2rem;
+    background-color: aquamarine;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.25);
+  }
+  .button-position{
+    transform: translate(-40%);
+    background-color: blue;
+  }
+  
+  .bell-position{
+    transform: translate(-40%,-20%);
+  }
+  

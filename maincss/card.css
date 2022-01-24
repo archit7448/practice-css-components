@@ -1,0 +1,175 @@
+@import url("/important/flex.css");
+@import url("/important/root.css");
+
+
+body {
+    font-family: "Roboto Mono";
+} 
+
+.main-heading{
+  text-align: center;
+}
+.card-parent-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+   gap: 10px;
+}
+.card-wrapper {
+    margin: 10% auto;
+    width: 350px;
+    align-self: flex-start;
+    background-color: var(--background-color);
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow:var(--box-shadow) ;
+}
+  
+.card-img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+  
+.card-data:hover {
+    background-color: rgb(247, 247, 247);
+}
+
+.card-padding {
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--smaller-text-color);
+}
+
+.card-heading-one {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+}
+
+.card-heading-two {
+    padding-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.card-footer {
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.card-para {
+    padding-bottom: 1rem;
+}
+
+.card-footer button{
+  border: 0px;
+  background-color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.card-footer-heading {
+    color: var(--primary-color);
+    padding: 0.5rem;
+    align-self: flex-start;
+}
+
+.card-footer-icon {
+    font-size: 1rem;
+    margin-left: auto;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem ;
+}
+
+.card-footer-heading:hover {
+    background-color: rgb(98, 0, 238, 0.2);
+    box-sizing: border-box;
+}
+
+.card-footer-icon:hover {
+    border-radius: 50%;
+    background-color: #f7f7f7;
+}
+
+
+
+/* Heading over Image */
+
+.card-position{
+  position: relative;
+}
+
+.heading-one-position{
+  position: absolute;
+  transform: translateY(-200%);
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.heading-two-position{
+  position: absolute;
+  transform: translateY(-150%);
+  color: white;
+}
+
+
+
+/* Heading over text */
+
+.card-heading-over-text1{
+  order: -1;
+}
+
+.card-heading-over-text2{
+  order:-1 ;
+}
+
+.card-heading-over-img{
+    border-radius: 0px 0px 0px 0px;
+}
+
+
+
+/* Card-without-icons */
+
+
+.card-without-icons{
+  display: none;
+}
+
+/* Card-with-only-icons */
+
+.card-only-icons{
+  display: none;
+}
+
+
+.card-footer-icons-parent{
+  margin-left: auto;
+}
+
+
+/* Horizontal Image card */
+.card-with-horizontal-image{
+     width: 450px;
+}
+.card-para-horizontal-image{
+  display: none;
+}
+
+.card-horizontal-image{
+  width: 40%;
+  border-radius: 5px  0px 0px 0px;
+}
+.card-padding-horizontal{
+  padding: 0px 10px;
+}
+

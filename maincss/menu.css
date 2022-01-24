@@ -1,0 +1,38 @@
+
+
+.menu-wrapper{
+    margin: 2rem auto;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    width:17rem;
+    height:16rem;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.1),-1px -1px 2px 1px rgba(0,0,0,0.1);
+}
+.heading-one{
+    font-size: 1.5rem;
+}
+.heading-two{
+    font-size: 1rem;
+}
+.menu-icons{
+    font-size: 1.2rem;
+    height: 8rem;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+.menu-icons .icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.menu-icons .icon:hover{
+    background-color:rgb(98, 0, 238,0.2) ;
+    color: #6200ee;
+}

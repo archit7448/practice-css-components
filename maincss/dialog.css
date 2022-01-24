@@ -1,0 +1,62 @@
+
+.dialog-wrapper{
+  font-family: sans-serif;
+  padding:2rem;
+  background-color: white;
+  width: 15rem;
+  margin: 3rem auto;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25),-1px -1px 2px 1px rgba(0, 0, 0, 0.25) ;
+}
+
+.dialog-heading-one{
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .dialog-heading-two{
+    color: grey;
+    font-size: 1rem;
+    margin-top: 1rem ;
+    margin-bottom: 3rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+  }
+  .dialog-button{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .dialog-action{
+    color: #6200ee;
+    font-size: 1.2rem;
+    margin-left: 0.7rem;
+    background-color: white;
+    border: 0px;
+    cursor: pointer;
+    padding: 0.5rem  ;
+    border-radius: 4px;
+  }
+
+
+  .dialog-action:hover{
+    background-color: rgba(98, 0, 238,0.5);
+    color: #6200ee;
+  }
+
+.dialog-action-simple{
+  font-size: 1.5rem;
+  color: grey;
+  padding: 0.5rem 1rem;
+  margin-right: auto;
+}
+
+.dialog-action-simple i {
+  margin-right: 1.5rem;
+}
+
+.dialog-heading-simple{
+  font-size: 1.5rem;
+}
+
+
+
